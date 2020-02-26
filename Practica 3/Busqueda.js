@@ -1,0 +1,1 @@
+db.planetas.find({"$or":[{"$or":[{"Composición":"H"}, {"Composición":"N"}]}, {"Masa":{"$gt":3.2}}]})
