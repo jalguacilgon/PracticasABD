@@ -1,1 +1,1 @@
-db.planetas.update({"Nombre":"C111"},{"$set"{"Nombre":"Z111"}})
+db.planetas.update({"Nombre":"C111"},{"$set":{"Nombre":"Z111"}})
