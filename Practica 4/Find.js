@@ -1,0 +1,1 @@
+db.clientes.find({"$or":[{"telefono":{"$eq":1111}}, {"telefono":{"$eq":4444}}, {"nombre":{"$eq":"maria"}}, {"edad":{"$lte":30}}]}, {})

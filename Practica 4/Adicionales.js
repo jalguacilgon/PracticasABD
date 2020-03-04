@@ -1,0 +1,1 @@
+db.clientes.update({"nombre":"pepe"},{"$set":{"adicionales":[{"casa":1112}, {"trabajo":1113}]}})
