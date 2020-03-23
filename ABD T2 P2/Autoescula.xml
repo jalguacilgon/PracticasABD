@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE autoescuela SYSTEM "Datos.dtd">
+<autoescuela>
+
+	<alumnos>
+		<alumno alumnoId="Jesus">
+			<clasesPracticas>43</clasesPracticas>
+			<examenPractica>3</examenPractica>
+			<examenTeoria>1</examenTeoria>
+		</alumno>
+	
+		<alumno alumnoId="Carlos">
+			<clasesPracticas>43</clasesPracticas>
+			<examenPractica>3</examenPractica>
+			<examenTeoria>1</examenTeoria>
+		</alumno>
+		
+		<alumno alumnoId="Ana">
+			<clasesPracticas>43</clasesPracticas>
+			<examenPractica>3</examenPractica>
+			<examenTeoria>1</examenTeoria>
+		</alumno>
+
+		<alumno alumnoId="Rosa">
+			<clasesPracticas>43</clasesPracticas>
+			<examenPractica>3</examenPractica>
+			<examenTeoria>1</examenTeoria>
+		</alumno>
+
+		<alumno alumnoId="Rodrigo">
+			<clasesPracticas>43</clasesPracticas>
+			<examenPractica>3</examenPractica>
+			<examenTeoria>1</examenTeoria>
+		</alumno>
+	</alumnos>
+	
+	<profesores>
+		<profesor profId="Juan">
+			<nombre>Juan</nombre>
+			<apellido>Gonzalez</apellido>
+			<edad>39</edad>
+			<horasSemanalTeoria>10</horasSemanalTeoria>
+			<horasSemanalPractica>25<horasSemanalPractica/>
+		</profesor>
+
+		<profesor profId="Eva">
+			<nombre>Eva</nombre>
+			<apellido>Moreno</apellido>
+			<edad>34</edad>
+			<horasSemanalTeoria>5</horasSemanalTeoria>
+			<horasSemanalPractica>30<horasSemanalPractica/>
+		</profesor>
+	</profesores>
+	
+	<coches>
+		<coche matrcicula="6960GLC">
+			<marca>Seat</marca>
+			<modelo>Leon</modelo>
+		</coche>
+	
+		<coche matricula="7953JCR">
+			<marca>Renault</marca>
+			<modelo>Megane</modelo>
+		</coche>
+	</coches>
+	
+</autoescuela>

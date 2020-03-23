@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT autoescuela (alumnos, profesores, coches)> 
+
+<!ELEMENT alumnos (alumno)+> 
+<!ELEMENT profesores (profesor)+> 
+<!ELEMENT coches (coche)+>  
+
+<!ELEMENT alumno (examenTeoria, clasesPracticas, examenPractica)> 
+<!ELEMENT profesor (nombre, apellido,edad,horasSemanalTeoria, (horasSemanalPractica)+)> 
+<!ELEMENT coche (marca, modelo)> 
+
+<!ELEMENT examenTeoria (#PCDATA)> 
+<!ELEMENT clasesPracticas (#PCDATA)> 
+<!ELEMENT examenPractica (#PCDATA)> 
+<!ELEMENT nombre (#PCDATA)> 
+<!ELEMENT apellido (#PCDATA)> 
+<!ELEMENT edad (#PCDATA)> 
+<!ELEMENT horasSemanalTeoria (#PCDATA)> 
+<!ELEMENT horasSemanalPractica(#PCDATA)> 
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+
+<!ATTLIST alumno alumnoId NMTOKEN #REQUIRED>
+<!ATTLIST profesor profId NMTOKEN #REQUIRED> 
+<!ATTLIST coche cocheId NMTOKEN #REQUIRED> 
+<!ATTLIST coche anio CDATA #IMPLIED> 
+<!ATTLIST horasSemanalPractica cocheId CDATA #REQUIRED> 
+<!ATTLIST horasSemanalPractica horas CDATA #REQUIRED>
+<!ATTLIST coche matricula ID #REQUIRED>
