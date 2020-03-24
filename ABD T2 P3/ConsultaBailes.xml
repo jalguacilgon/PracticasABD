@@ -1,0 +1,15 @@
+xquery version "3.1";
+
+for $b in doc("bailes.xml")/bailes/baile
+return <losbailes>{$b/nombre/text()}</losbailes>
+
+for $b in doc("bailes.xml")/bailes/baile
+return <losbailes> {$b/nombre/text()} ({$b/plazas/text()})</losbailes>
+
+for $b in doc("bailes.xml")/bailes/baile
+where $b/precio > 30
+return $b/nombre/text()
+
+for $b in doc("bailes.xml")/bailes/baile
+where $b/precio[ .> 30 and @moneda="euro"]
+return $b/nombre/text()
